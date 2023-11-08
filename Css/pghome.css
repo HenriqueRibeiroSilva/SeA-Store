@@ -41,7 +41,7 @@ header{
 
 header > h1{
     color: var(--cor0);
-    font-family: var(--fonte-footer);
+    font-family: var(--fonte-padrao);
     font-size: 3.5em;
     margin-bottom: 15px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.664);
@@ -93,14 +93,4 @@ nav >div> a:hover {
   
 div > a > img{
     margin-bottom: 15px;
-}
-
-/* Footer */
-
-footer{
-    margin-top: 5px;
-    text-align: center;
-    font-family: var(--fonte-footer);
-    font-size: 1.3em;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377);
 }

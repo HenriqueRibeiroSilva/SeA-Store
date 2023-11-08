@@ -76,4 +76,12 @@ header > a > img:hover{
   width: 30px;
   height: 30px;
 }
+
+/* Nav > Botão de nova venda*/
+
+nav.novavenda{
+  background-color: var(--cor3);
+  color: var(--cor0);
+
+}
   
