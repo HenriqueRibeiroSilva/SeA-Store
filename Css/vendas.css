@@ -20,6 +20,10 @@
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
 }
 
+body{
+  position: relative;
+}
+
 /* Header */
 
 header {
@@ -77,11 +81,29 @@ header > a > img:hover{
   height: 30px;
 }
 
-/* Nav > Botão de nova venda*/
+/* Nav */
 
-nav.novavenda{
-  background-color: var(--cor3);
-  color: var(--cor0);
+input.nova-venda{
+padding: 10px;
+margin: 80px 80px 80px 80px;
 
+border: 1px solid black;
+border-radius: 10px;
+
+color: var(--cor5);
+background-color: var(--cor1);
 }
+
+input.consultar-venda{
+  padding: 10px;
+  margin: 0px 80px 0px 80px;
+  
+  
+  border: 1px solid black;
+  border-radius: 10px;
+  
+  color: var(--cor5);
+  background-color: var(--cor1);
+  }
+
   
