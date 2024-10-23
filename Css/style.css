@@ -40,13 +40,59 @@
 
 /* MAIN */
 
-#nav-button {
+#main_content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: var(--color-neutral-30);
-    margin: auto;
-    justify-items: center;
+}
+
+.nav-button div{
+    display: flex;
+    background-color: var(--color-neutral-10);
     align-items: center;
-    width: 90%;
-    padding: 10rem 0.5rem;
+}
+
+#nav-button-vendas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15%;
+    width: 250px;
+    height: 280px;
+}
+
+#nav-button-finançeiro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15%;
+    width: 250px;
+    height: 280px;
+}
+
+#nav-button-estoque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15%;
+    width: 250px;
+    height: 280px;
+}
+
+#nav-button-clientes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15%;
+    width: 250px;
+    height: 280px;
+}
+
+a {
+    font-size: 4.5rem;
+    color: var(--color-neutral-20);
+    text-decoration: none;
 }
